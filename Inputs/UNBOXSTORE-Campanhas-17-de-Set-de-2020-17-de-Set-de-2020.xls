@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                      <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:x="urn:schemas-microsoft-com:office:excel"
+                       xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:html="http://www.w3.org/TR/REC-html40">
+                      <Styles>
+                        <Style ss:ID="s17">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s18">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s19">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s20">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s21">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s22">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s23">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s24">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s25">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s26">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s27">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s28">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s29">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s30">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s31">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s32">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s33">
+                         <NumberFormat ss:Format="YYYY-mm-dd"/>
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                        </Style>
+                        <Style ss:ID="s34">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s35">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s36">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                      <Style ss:ID="s101">
+                                <NumberFormat ss:Format="text"/>
+                                <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                                <Font ss:FontName="Verdana" ss:Bold="1"/>
+                              </Style>
+                              <Style ss:ID="s100">
+                                <NumberFormat ss:Format="text"/>
+                                <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                              </Style></Styles>
+<Worksheet ss:Name="Sheet1">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="14" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="15" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="16" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="17" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="18" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s34"><Data ss:Type="String">Início dos relatórios</Data></Cell>
+<Cell ss:StyleID="s34"><Data ss:Type="String">Término dos relatórios</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Nome da campanha</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Veiculação da campanha</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Valor gasto (BRL)</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Impressões</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Reproduções de 95% do vídeo</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Cliques no link</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Visualizações de conteúdo</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Visualizações de conteúdo no site</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Finalizações de compra iniciadas</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Finalizações de compra iniciadas no site</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Inclusões de informações de pagamento</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Adições de informações de pagamento no site</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Compras</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Compras no site</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Cartão</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Boleto</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | STORIES | 25-54 | LLA 5% VV95% | 26/08</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">46.06</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5711</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">79</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">106</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">84</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">84</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | STORIES | 25-54 | LLA 4% VV95% | 28/08</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">45.65</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4294</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">65</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">67</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">50</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">50</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | STORIES | MASTERCARD/VISA | 18-34 | 30/08</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">47.4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11377</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">169</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">135</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">135</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">22</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">22</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES |18-44 | LLA 7% VV 95%  | 31/08</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">47.51</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10765</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">113</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">148</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">123</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">123</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES |18-44 | LLA 7% VV 75%  | 03/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">47.09</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10698</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">127</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">163</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">129</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">129</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">| RMKT 2 | INICIATE | INSTAGRAM | MOBILE | STORIES | 15/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">15.91</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">909</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES | 18- 34 | LLA 5% VIEW CONTENT | 15/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">41.38</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9424</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">108</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">137</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">106</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">106</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">17</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">17</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | STORIES | IBANCO DO BRASIL/SANTANDER/BMG | 25-34 | 15/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">41.92</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13128</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">126</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">176</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">136</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">136</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | STORIES | IBANCO DO BRASIL/SANTANDER/BMG | 25-34 | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.03</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9128</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">95</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">140</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">115</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">115</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">17</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">17</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES |18-24 | LLA 7% VV 75%  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.09</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12446</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">107</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">162</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">129</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">129</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES |18-24 | LLA 7% VV 95%  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.76</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13277</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">128</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">145</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">113</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">113</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | STORIES | 25-34 | LLA 5% VV95% | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">39.64</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6351</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">83</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">101</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">81</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">81</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | STORIES | MASTERCARD/VISA | 18-24 | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.73</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">14319</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">136</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">160</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">126</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">126</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">25</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">25</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES | LLA 8% VIEW CONTENT  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.05</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">8636</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">88</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">121</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">104</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">104</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">14</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">14</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES | LLA 9% VIEW CONTENT  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.96</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10210</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">116</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">129</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">102</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">102</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES | LLA 4% PAGE VIEW  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.09</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">8019</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">91</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">143</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">126</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">126</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES | LLA 10%  VIEW CONTENT  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.29</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10137</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">118</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">131</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">110</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">110</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES | LLA 1% PAGE VIEW  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.61</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6159</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">60</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">93</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">78</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">78</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES | LLA 3%PAGE VIEW  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">40.52</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">7796</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">84</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">113</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">88</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">88</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s33"><Data ss:Type="DateTime">2020-09-17</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">|  SUTIA | INSTAGRAM | MOBILE | STORIES | LLA 2% PAGE VIEW  | 17/09</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">active</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="Number">39.38</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6468</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">83</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">109</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">89</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">89</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
