@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="934,757" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="934,1173" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="28">
       <x:String>System.Activities</x:String>
@@ -58,7 +58,7 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Projeto" sap:VirtualizedContainerService.HintSize="242,592" sap2010:WorkflowViewState.IdRef="Sequence_6">
+  <Sequence DisplayName="Projeto" sap:VirtualizedContainerService.HintSize="346,968" sap2010:WorkflowViewState.IdRef="Sequence_6">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_CaminhoOutput" />
       <Variable x:TypeArguments="x:String" Name="str_UrlFacebook" />
@@ -75,10 +75,10 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Variáveis" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_8">
+    <Sequence DisplayName="Variáveis" sap:VirtualizedContainerService.HintSize="304,452" sap2010:WorkflowViewState.IdRef="Sequence_8">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -98,7 +98,7 @@
           <InArgument x:TypeArguments="x:String">[str_CaminhoIntermediario + "Extração.xlsx"]</InArgument>
         </Assign.Value>
       </Assign>
-      <Assign DisplayName="URL do Facebook" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign DisplayName="URL do Faceboook" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[str_UrlFacebook]</OutArgument>
         </Assign.To>
@@ -115,7 +115,7 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <Sequence DisplayName="Fechar navegadores" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence DisplayName="Fechar navegadores" sap:VirtualizedContainerService.HintSize="304,66" sap2010:WorkflowViewState.IdRef="Sequence_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -124,7 +124,7 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="CHROME" />
     </Sequence>
-    <Sequence DisplayName="Organização das pastas" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="Organização das pastas" sap:VirtualizedContainerService.HintSize="304,66" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -185,7 +185,7 @@
         </If>
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="Abrir e iniciarr" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <Sequence DisplayName="Abrir e iniciarr" sap:VirtualizedContainerService.HintSize="304,66" sap2010:WorkflowViewState.IdRef="Sequence_5">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -610,7 +610,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:BrowserScope>
     </Sequence>
-    <Sequence DisplayName="Preencher dados do Excel" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_46">
+    <Sequence DisplayName="Preencher dados do Excel" sap:VirtualizedContainerService.HintSize="304,66" sap2010:WorkflowViewState.IdRef="Sequence_46">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -625,7 +625,7 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="730,260" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_10" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="730,260" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_10" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
           <ui:ExcelApplicationScope.Body>
             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
               <ActivityAction.Argument>
@@ -679,7 +679,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Descobrir quantas linhas têm a página que vou somar" sap:VirtualizedContainerService.HintSize="556,2718" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_9" WorkbookPath="[str_CaminhoOutput]">
+                  <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Descobrir quantas linhas têm a página que vou somar" sap:VirtualizedContainerService.HintSize="556,2718" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_9" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoOutput]">
                     <ui:ExcelApplicationScope.Body>
                       <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                         <ActivityAction.Argument>
@@ -828,7 +828,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna Impressões - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,585" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna Impressões - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,585" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
@@ -911,7 +911,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna Video 95%- Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna Video 95%- Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
@@ -995,7 +995,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna Cliques - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_4" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna Cliques - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_4" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
@@ -1078,7 +1078,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna View- Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_3" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna View- Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_3" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
@@ -1161,7 +1161,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna CUSTO POR View- Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna CUSTO POR View- Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
@@ -1244,7 +1244,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna Click - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_6" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna Click - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_6" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
@@ -1327,7 +1327,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna initiate - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_7" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna initiate - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_7" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
@@ -1410,7 +1410,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna initiate - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_8" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Coluna initiate - Excel Application Scope" sap:VirtualizedContainerService.HintSize="556,580" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_8" InstanceCachePeriod="3000" WorkbookPath="[str_CaminhoDaTabelaDoFacebook]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
